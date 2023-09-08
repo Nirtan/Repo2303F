@@ -1,0 +1,241 @@
+
+
+
+
+
+
+
+
+/* google fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Dela Gothic One', cursive;
+
+ }
+
+ nav {
+     width: auto;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* background-color: aqua; */
+ }
+
+
+ .navbar {
+     display: flex;
+
+     width: 70%;
+ }
+
+ .logo {
+     width: 20%;
+     display: flex;
+     justify-content: center;
+     height: 100%;
+     align-items: center;
+ }
+
+ .logo img {
+     height: 60px;
+     width: 100%;
+ }
+
+ .navbar ul {
+     display: flex;
+     flex-wrap: wrap;
+     list-style-type: none;
+     align-items: center;
+     height: 70px;
+ }
+
+ li {
+     margin-inline: 30px;
+ }
+
+ li a {
+     color: black;
+     font-size: 18px;
+     letter-spacing: 3px;
+     text-decoration: none;
+     transition: 0.5s ease;
+ }
+
+ li a:hover {
+     color: rgba(241, 83, 25, 0.87);
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+ }
+
+
+ header {
+     background-color: black;
+     height: 600px;
+     background-repeat: no-repeat;
+     width: 100%;
+     background-image: url(../images/banner.jpg);
+     background-size: 100% 100%;
+
+ }
+
+ /* Page description  css */
+ #Pagedescription {
+     width: 100%;
+     height: auto;
+     display: flex;
+     align-items: center;
+
+ }
+
+ #Pagedescription img {
+     border-radius: 10px;
+
+ }
+
+ #Pagedescription p {
+     color: grey;
+     margin-left: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+ /* banner css */
+ .wrapper {
+     position: relative;
+     top: 40%;
+     left: 10%;
+     width: auto;
+     display: inline-block;
+
+
+ }
+
+ .wrapper .bannertext {
+     font-size: 40px;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: white;
+ }
+
+ #shopnowbtn {
+     padding-inline: 40px;
+     padding-block: 20px;
+     margin-top: 50px;
+     border-radius: 5px;
+     background-color: rgba(241, 83, 25, 0.87);
+     font-size: 20px;
+     font-weight: bolder;
+     border: none;
+     color: white;
+     transition: 0.5s ease;
+ }
+
+ #shopnowbtn:hover {
+     color: black;
+     background-color: white;
+     border: 1px solid rgba(241, 83, 25, 0.87);
+ }
+
+
+
+
+ main {
+     height: auto;
+     width: 100%;
+     padding: 100px;
+     box-sizing: border-box;
+
+ }
+
+
+
+ .heading-2 h1 {
+     display: grid;
+     grid-template-columns: minmax(50px, 1fr) auto minmax(50px, 1fr);
+     align-items: center;
+     text-align: center;
+     gap: 40px;
+     margin-block: 100px;
+ }
+
+ .heading-2 h1::before,
+ .heading-2 h1::after {
+     content: "";
+     BORDER-TOP: 6PX DOUBLE;
+ }
+
+ /* services */
+ .Services {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+    
+ }
+
+ .Services section {
+     height: auto;
+     width: 300px;
+     margin-inline: 20px;
+     border-radius: 10px;
+     font-size: 20px;
+     font-weight: bolder;
+
+ }
+
+
+ .details {
+     padding-inline: 47px;
+     border: 1px solid black;
+     border-radius: 10px;
+     padding-block: 14px;
+     text-align: center;
+     background-color: rgba(241, 83, 25, 0.87);
+     margin-bottom: 15px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+/* contact css */
+.Contactus{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.Contactus section{
+height: 300px;
+width: 50%;
+margin-inline: 20px;
+border-radius: 10px;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+display: flex;
+font-size: 20px;
+
+}
+
+.Contactdetals{
+        margin-inline-start: 20px;
+}
+.Contactdetals >p{
+    font-weight: lighter;
+}
